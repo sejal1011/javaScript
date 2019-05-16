@@ -1,0 +1,19 @@
+<html>
+<body>
+<h2>listing food items in array</h2>
+<p>using javaScript</p>
+<p id="demo"></p>
+<script>
+var fruits,flen,i,text;
+fruits=["apple","mango","banana","kiwi"];
+flen=fruits.length;
+text="<ol>"
+for(i=0;i<flen;i++)
+{
+text+="<li>"+ fruits[i] + "</li>";
+}
+text+=</ol>
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
