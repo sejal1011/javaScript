@@ -1,0 +1,10 @@
+<html>
+<body>
+<p>learning array's in javascript</p>
+<p id="demo"></p>
+<script>
+var cars=["BMW","AUDI","VOLVO"];
+document.getElementById("demo").innerHTML.car[1];
+</script>
+</body>
+</html>
