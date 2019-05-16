@@ -1,0 +1,15 @@
+<html>
+<body>
+<h2>javascript array's</h2>
+<button onclick="myfunction()"> try it</button>
+<p id="demo"></p>
+<script>
+var fruits=["apple","banana","kiwi"];
+document.getElementById("demo").innerHTML=fruits;
+function myfunction(){
+fruits.push("lemon");
+document.getElementById("demo").innerHTML=fruits;
+}
+</script>
+</body>
+</html>
