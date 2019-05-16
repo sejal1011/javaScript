@@ -1,0 +1,13 @@
+<html>
+<body>
+<h2>Display the value of Undefined</h2>
+<button onclick="myfunction()">Try It</button>
+<p id="demo"></p>
+<script>
+function myfunction(){
+var x;
+document.getElementById.innerHTML("demo").innerHTML=Boolean(x);
+}
+</script>
+</body>
+</html>
