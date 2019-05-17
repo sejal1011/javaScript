@@ -1,0 +1,23 @@
+<html>
+<body>
+<h2>using switch command</h2>
+<p id="demo"></p>
+<script>
+var text;
+switch (new Date().getDay()){
+case 0:
+text="Today is saturday";
+break;
+
+case 1:
+text="Today is Sunday";
+break;
+default:
+text="Today is not weekend";
+
+}
+document.getElementById("demo").innerHTML=text;
+
+</script>
+</body>
+</html>
