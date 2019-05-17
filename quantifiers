@@ -1,0 +1,15 @@
+<html>
+<body>
+<h2>Javascript</h2>
+<button onclick="myfunction()">Try It</button>
+<p id="demo"></p>
+<script>
+function myfunction(){
+var str="heloooo scholol helo";
+var n=/ol*/g;
+var result=str.match(n);
+document.getElementById("demo").innerHTML=result;
+}
+</script>
+</body>
+</html>
