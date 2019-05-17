@@ -1,0 +1,23 @@
+<html>
+<body>
+<h2>JavaScript Time</h2>
+<button onclick="mufunction()">Try It</button>
+<p id="demo"></p>
+<script>
+function myfunction(){
+var greeting;
+var time=new Date.gethours();
+if (time<10){
+greeting="Good Morning";
+}
+elseif(time<20){
+greeting="GoodDay";
+}
+else{
+greeting="good evening";
+}
+document.getElementById("demo").innerHTML=greeting;
+}
+</script>
+</body>
+</html>
